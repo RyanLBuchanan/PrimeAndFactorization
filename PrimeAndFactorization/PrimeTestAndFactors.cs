@@ -51,6 +51,8 @@ namespace PrimeAndFactorization
             {
                 Console.Write($"{prime} ");
             }
+
+            Console.WriteLine();
         }
 
         public static List<int> GeneratePrimeFactors(int num)
